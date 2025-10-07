@@ -1,45 +1,68 @@
 # Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
 .DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
-
-# IntelliJ related
+.env
+.idea
+.metadata
+.vscode/
 *.iml
 *.ipr
 *.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+*.log
+*.obj
+*.os
+*.so
+*.suo
+*.user
+*.useros
+*.vcproj
+*.vscode
+*.vspscc
+*.vssscc
+*.bak
+*.orig
+*.rej
+*~
+.#*
+# Build artifacts
+/build
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+.packages
+.gradle/
+android/.gradle/
+android/gradle-wrapper/gradle-wrapper.jar
+android/gradle.properties
+android/local.properties
+android/key.properties
+android/app/google-services.json
+ios/.symlinks/
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/flutter_assets/
+ios/Runner.app/
+ios/Runner.xcarchive/
+ios/Pods/
+ios/Flutter/podhelper.rb
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/flutter_assets/
+ios/Runner.app/
+ios/Runner.xcarchive/
+ios/Pods/
+ios/Flutter/podhelper.rb
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Flutter/ephemeral/
+# Gradle files
+*.zip
+gradle.zip
+android/gradle/wrapper/dists/
